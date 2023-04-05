@@ -1,0 +1,76 @@
+/* pc  */
+/*@media (min-with:1024px){
+
+}*/
+/* tab  */
+@media(max-width:1023px){
+    .btn{
+        padding:15px 16px ;
+    }
+    
+.contact-form .form-control {
+    padding: 15px;
+    }
+}
+@media (min-width:740px) and (max-width:1024px){
+    #header{
+       width: auto ;
+    }
+   
+ .map-section .bando {
+    width:auto ;
+ }
+}
+ /* mobile   */
+@media (max-width:739px){
+    .s-width{
+        width:100% !important;
+    }
+    .s-mt8{
+        margin: 8px 0;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-button{
+        display: none ;
+    }
+    
+    #nav{
+        display:block ;
+    }
+    #nav>li{
+        display: block;
+    }
+    #nav>li:first-child{     /*chỉ css cho thẻ con li đầu tiên */
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background: rgb(34, 33, 33);
+    }
+    #nav .subnav a {
+        color :#fff;
+        padding: 5px 41px ;
+    }
+    #content .member-item{
+        width:100%;
+       margin-top: 30px ;
+    }
+    .col-thirt{
+        width: 100%; 
+    }
+    #content .members-name{
+        margin-top: 32px ;
+    }
+    .tikets-list{
+        border-radius: 6px ;
+    }
+    
+    
+
+
+}
